@@ -257,6 +257,7 @@ RCT_EXPORT_METHOD(handleDetailsUpdate: (NSDictionary *)details
     
     if (iOSVersion >= 11) {
         [supportedNetworksMapping setObject:PKPaymentNetworkCarteBancaires forKey:@"cartebancaires"];
+        [supportedNetworksMapping setObject:PKPaymentNetworkMir forKey:@"mir"];
     }
     
     // Setup supportedNetworks
